@@ -1,1 +1,1 @@
-export const API_ENDPOINT = 'http://10.147.17.16:8000/api'
+export const API_ENDPOINT = 'http://172.18.0.3:8000/api'
