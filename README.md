@@ -1,4 +1,4 @@
-Rust backend available [here](https://github.com/vaqxai/pokemon-simulator-backend)
+Rust backend available [here](https://github.com/vaqxai/pokemon-simulator-api)
 
 # Overview
 
