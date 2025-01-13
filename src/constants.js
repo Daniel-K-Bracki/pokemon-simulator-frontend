@@ -1,0 +1,1 @@
+export const API_ENDPOINT = 'http://10.147.17.16:8000/api'

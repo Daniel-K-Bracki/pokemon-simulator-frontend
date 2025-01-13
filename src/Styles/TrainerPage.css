@@ -1,0 +1,19 @@
+.trainer-select-page {
+    padding: 20px;
+    max-width: 600px; 
+    margin: auto; 
+    text-align: center; 
+}
+
+.trainer-info {
+    margin-top: 20px; 
+}
+
+.trainer-info h3 {
+    margin-bottom: 10px; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}

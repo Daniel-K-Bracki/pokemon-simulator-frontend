@@ -1,0 +1,133 @@
+.pokemon-selection {
+    margin-bottom: 20px; 
+}
+
+.pokemon-selection label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.simulate-fight-page {
+    padding: 20px; 
+    margin: auto; 
+    font-family: Arial, sans-serif; 
+}
+
+.pokemon-selection {
+    margin-bottom: 20px; 
+}
+
+.pokemon-selection label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.start-fight-button {
+    padding: 10px 15px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.start-fight-button:hover {
+    background-color: #45a049; 
+}
+
+.winner-text {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ff5722; 
+    margin-top: 20px; 
+}
+
+.fight-log {
+    margin-top: 20px; 
+}
+
+.log-entry {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    transition: background-color 0.2s; 
+}
+
+.log-entry:hover {
+    background-color: #eaeaea; 
+}
+
+.columns-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    margin: 10px auto; 
+    max-width: 100%; 
+    padding: 10px; 
+}
+
+.column {
+    padding: 10px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.columns-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: stretch; 
+    max-width: 100%; 
+}
+
+.trainer-column {
+    flex: 1; 
+    padding: 10px; 
+    margin: 0 10px; 
+    background-color: lightgray; 
+    box-sizing: border-box; 
+}
+
+
+.log-entry {
+    margin: 10px 0;
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.choose-pokemon-entry {
+    color: #0066cc; 
+}
+
+.hit-entry {
+    color: #000; 
+}
+
+.hit-entry.supereffective {
+    color: #ff4444; 
+    font-weight: bold; 
+}
+
+.hit-entry.notveryeffective {
+    color: #777; 
+}
+
+.faint-entry {
+    color: #dc3545; 
+    font-weight: bold; 
+}
+
+.winner-entry {
+    color: #28a745; 
+    font-weight: bold; 
+}
+
+.effectiveness-message {
+    font-style: italic; 
+    color: #ff8800; 
+}

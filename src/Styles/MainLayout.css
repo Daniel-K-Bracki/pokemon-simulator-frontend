@@ -1,0 +1,19 @@
+.main-layout {
+    text-align: center;
+    background-color: #f0f8ff; 
+    color: #333;
+    padding: 20px;
+}
+
+.header {
+    background-color: #ffcc00; 
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ddd;
+}

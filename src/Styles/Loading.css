@@ -1,0 +1,22 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Fill the viewport */
+}
+
+.loading-image {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    animation: rotate 1s linear infinite; /* Rotate animation */
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
