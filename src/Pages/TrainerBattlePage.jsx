@@ -158,7 +158,7 @@ const TrainerBattlePage = () => {
             </div>
 
             {winner && <h3 className="winner-text">Winner: {winner}</h3>}
-            {remaining && <h3 className="winner-text">Remaining Pokemon: {remaining}</h3>}
+            {remaining && <h3 className="winner-text">Remaining Pokémon: {remaining}</h3>}
             <h3>Fight Log:</h3>
 
 
@@ -190,7 +190,7 @@ const TrainerBattlePage = () => {
                         </p>
                     ) : (
                         <p className="winner-entry">
-                            <strong>{logItem.event_data.trainer}</strong> is the WINNER with remaining pokemon still standing: <strong>{logItem.event_data.pokemon_left.join(', ')}</strong>
+                            <strong>{logItem.event_data.trainer}</strong> is the WINNER with remaining Pokémon still standing: <strong>{logItem.event_data.pokemon_left.join(', ')}</strong>
                         </p>
                     )}
                 </div>
