@@ -2,13 +2,14 @@
 
 # Pages Overview
 
+
 # 1. Main Page (MainPage.js)
 The main page allows users to browse and select Pokémon. Users can filter Pokémon by type and view selected Pokémon.
 
 Key Functions:
 - Fetch a list of Pokémon from the API.
-Allow users to filter Pokémon by type.
-- Manage user-selected Pokémon.
+- Allow users to filter Pokémon by type.
+- Display user selected Pokemon for comparison.
 
 
 # 2. Add Pokémon Page (AddPokemonPage.js)
@@ -25,15 +26,23 @@ This page enables users to select two Pokémon and simulate a battle between the
 
 Key Functions:
 - Fetch a list of Pokémon.
-- Allow users to select Pokémon for the fight.
+- Allow users to select two Pokémon for the fight.
 - Fetch and display the fight log and winning Pokémon.
 
 
-# 4. Trainer Battle Page (TrainerBattlePage.js)
-A page that allows users to select two trainers and strategies for a battle between them, displaying the fight results.
+# 4. Modify Trainer Page (TrainerPage.js)
+A page that allows user to add Trainer, and modify the team of any trainer present in the database.
 
 Key Functions:
 - Fetch trainers with available Pokémon.
+- Allow modifications to the trainer team.
+
+
+# 5. Trainer Battle Page (TrainerBattlePage.js)
+A page that allows users to select two trainers and strategies for a battle between them, displaying the fight results.
+
+Key Functions:
+- Fetch trainers with their assigned Pokémon.
 - Allow selection of trainers and strategies.
 - Display fight log and result with winning trainer.
 
@@ -43,6 +52,7 @@ Key Functions:
 - POST /pokemons: Add a new Pokémon to the database.
 - GET /simulate_fight/{trainer1}/{trainer2}: Simulate a fight between two trainers.
 - GET /simulate_trainer_fight/{trainer1}/{strategy1}/{trainer2}/{strategy2}: Simulate a trainer fight with selected strategies.
+
 
 # Usage
 Navigate through different pages to select trainers, Pokémon, and strategies.
