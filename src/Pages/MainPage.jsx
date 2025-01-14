@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PkmnCard from '../assets/PkmnCard';
-import { API_ENDPOINT } from '../constants.js';
+import { API_ENDPOINT } from '../constants/constants.js'
 import pokeball_loader from '../assets/pokeball_loader.png';
 import '../Styles/Loading.css';
 import '../Styles/Button.css'; 

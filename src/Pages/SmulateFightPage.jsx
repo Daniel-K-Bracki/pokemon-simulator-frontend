@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { API_ENDPOINT } from '../constants.js';
+import { API_ENDPOINT } from '../constants/constants.js'
 import pokeball_loader from '../assets/pokeball_loader.png';
 import '../Styles/Loading.css';
 import '../Styles/ChoseFightingPkmn.css';
