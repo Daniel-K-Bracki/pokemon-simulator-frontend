@@ -8,4 +8,7 @@ COPY . .
 
 EXPOSE 3000
 
-CMD [ "npm", "run", "dev" ]
+RUN npm run build
+RUN npm i -g serve
+
+CMD [ "serve", "-s", "dist" ]
