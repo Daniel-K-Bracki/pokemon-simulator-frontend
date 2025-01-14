@@ -17,3 +17,8 @@ Pokémon Simulator is an interactive web application that allows users to simula
 - API: Rust
 - Data Management: Fetch API for retrieving Pokémon and trainer data.
 
+# Run project:
+1. npm run build
+2. npm i -g serve
+3. serve -s  dist
+
